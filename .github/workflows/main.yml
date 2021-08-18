@@ -28,6 +28,6 @@ jobs:
       #    azcliversion: 2.0.72
       #    inlineScript: |
       #      az storage blob upload-batch --account-name morstorage -d '$web' -s ../..
-       run: |
+      - run: |
               az logout
         if: ${{ always() }}
