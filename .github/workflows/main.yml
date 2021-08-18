@@ -29,5 +29,5 @@ jobs:
             az storage blob upload-batch --account-name morstorage -d '$web' -s ../..
       - name: logout
         run: |
-          az logout
+             az logout
         if: ${{ always() }}
