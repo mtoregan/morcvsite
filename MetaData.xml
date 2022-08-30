@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema"
+				  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				  xsi:schemaLocation="http://schemas.dev.office.com/PnP/2020/02/ProvisioningSchema https://raw.githubusercontent.com/OfficeDev/PnP-Provisioning-Schema/master/OfficeDevPnP.ProvisioningSchema/ProvisioningSchema-2020-02.xsd">
+	<pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.28.2012.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+	<pnp:Templates ID="CONTAINER-TEMPLATE-METAROOT">    
+		<pnp:ProvisioningTemplate ID="TEMPLATE-METAROOT" Version="1" BaseSiteTemplate="STS#0" Scope="RootSite">
+			<pnp:TermGroups>
+				<pnp:TermGroup Name="NTMA.Intranet.Sprint" ID="566c5dcc-0eea-4966-a581-9929b763b9cd" UpdateBehavior="Overwrite">
+					<pnp:TermSets>
+						<pnp:TermSet Name="Consent Category" ID="5618a4eb-c01d-4e10-9ba3-2e8528cce2d1" Description="Term set with the Consent Categories." IsAvailableForTagging="true">
+							<pnp:Terms>
+								<pnp:Term Name="Accounts" ID="6da79e05-97d3-41fa-b23b-fd1fc955ca04" IsAvailableForTagging="true"></pnp:Term>
+								<pnp:Term Name="Aquisitions" ID="587488a7-bf9d-4e1a-9c66-4e53ad5bc202" IsAvailableForTagging="true"></pnp:Term>
+								<pnp:Term Name="Board" ID="13792020-abe9-4d4f-8fce-d0c05e67c03a" IsAvailableForTagging="true"></pnp:Term>								
+							</pnp:Terms>
+						</pnp:TermSet>
+					</pnp:TermSets>
+				</pnp:TermGroup>
+			</pnp:TermGroups>	
+		</pnp:ProvisioningTemplate>
+	</pnp:Templates>
+</pnp:Provisioning>
